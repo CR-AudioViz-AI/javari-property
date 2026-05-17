@@ -1,4 +1,4 @@
-// CravManage Dashboard
+// Javari Manage Dashboard
 // The Command Center for Property Management
 
 'use client'
@@ -58,7 +58,7 @@ export default function DashboardPage() {
             <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-violet-500 to-violet-600 flex items-center justify-center">
               <Building2 className="w-6 h-6 text-white" />
             </div>
-            <span className="text-xl font-bold text-white">CravManage</span>
+            <span className="text-xl font-bold text-white">Javari Manage</span>
           </Link>
         </div>
         
@@ -100,7 +100,7 @@ export default function DashboardPage() {
           <div className="space-y-2">
             <a href="https://cravkey.com" className="flex items-center gap-2 text-sm text-slate-400 hover:text-emerald-400 transition">
               <Key className="w-4 h-4" />
-              <span>CravKey (Realtor CRM)</span>
+              <span>Javari Keys (Realtor CRM)</span>
             </a>
             <a href="https://rateunlock.com" className="flex items-center gap-2 text-sm text-slate-400 hover:text-amber-400 transition">
               <TrendingUp className="w-4 h-4" />
