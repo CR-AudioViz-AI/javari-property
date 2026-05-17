@@ -1,5 +1,5 @@
-// CravManage Login Page
-// Unified authentication across the CravProperty ecosystem
+// Javari Manage Login Page
+// Unified authentication across the Javari Property ecosystem
 
 'use client'
 
@@ -55,7 +55,7 @@ export default function LoginPage() {
             <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-violet-500 to-violet-600 flex items-center justify-center">
               <Building2 className="w-6 h-6 text-white" />
             </div>
-            <span className="text-xl font-bold text-white">CravManage</span>
+            <span className="text-xl font-bold text-white">Javari Manage</span>
           </Link>
           <Link href="/signup" className="text-slate-300 hover:text-white text-sm">
             Don't have an account? <span className="text-violet-400">Sign up</span>
@@ -176,9 +176,9 @@ export default function LoginPage() {
 
           {/* Ecosystem Links */}
           <div className="mt-8 text-center">
-            <p className="text-slate-500 text-sm mb-4">Part of the CravProperty Ecosystem</p>
+            <p className="text-slate-500 text-sm mb-4">Part of the Javari Property Ecosystem</p>
             <div className="flex justify-center gap-4 text-sm">
-              <a href="https://cravkey.com" className="text-slate-400 hover:text-emerald-400 transition">CravKey</a>
+              <a href="https://cravkey.com" className="text-slate-400 hover:text-emerald-400 transition">Javari Keys</a>
               <span className="text-slate-700">•</span>
               <a href="https://zoyzy.com" className="text-slate-400 hover:text-cyan-400 transition">Zoyzy</a>
               <span className="text-slate-700">•</span>
