@@ -1,4 +1,4 @@
-// CravManage Pricing Page
+// Javari Manage Pricing Page
 // AI-Powered Property Management That Actually Works
 
 import Link from 'next/link'
@@ -74,7 +74,7 @@ const pricingPlans = [
 ]
 
 const competitors = [
-  { name: 'CravManage', price: '$49-399', setup: 'FREE', units: 'Unlimited', ai: true, contract: 'Month-to-month' },
+  { name: 'Javari Manage', price: '$49-399', setup: 'FREE', units: 'Unlimited', ai: true, contract: 'Month-to-month' },
   { name: 'AppFolio', price: '$1.40/unit', setup: '$400+', units: 'Min 50', ai: false, contract: '12 months' },
   { name: 'Buildium', price: '$58-375', setup: 'Varies', units: 'Tiered', ai: false, contract: 'Annual' },
   { name: 'Rent Manager', price: 'Quote', setup: '$500+', units: 'Varies', ai: false, contract: '12 months' },
@@ -124,7 +124,7 @@ export default function PricingPage() {
             <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-violet-500 to-violet-600 flex items-center justify-center">
               <Building2 className="w-6 h-6 text-white" />
             </div>
-            <span className="text-xl font-bold text-white">CravManage</span>
+            <span className="text-xl font-bold text-white">Javari Manage</span>
           </Link>
           <div className="hidden md:flex items-center gap-6">
             <Link href="/features" className="text-slate-300 hover:text-white">Features</Link>
@@ -237,14 +237,14 @@ export default function PricingPage() {
                   <tr 
                     key={i}
                     className={`border-b border-slate-700/50 ${
-                      comp.name === 'CravManage' ? 'bg-violet-500/10' : ''
+                      comp.name === 'Javari Manage' ? 'bg-violet-500/10' : ''
                     }`}
                   >
                     <td className={`px-4 py-4 font-semibold ${
-                      comp.name === 'CravManage' ? 'text-violet-400' : 'text-white'
+                      comp.name === 'Javari Manage' ? 'text-violet-400' : 'text-white'
                     }`}>
                       {comp.name}
-                      {comp.name === 'CravManage' && (
+                      {comp.name === 'Javari Manage' && (
                         <span className="ml-2 text-xs bg-violet-500 text-white px-2 py-0.5 rounded">BEST</span>
                       )}
                     </td>
@@ -321,9 +321,9 @@ export default function PricingPage() {
       <footer className="py-8 px-4 border-t border-slate-800">
         <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="text-slate-500 text-sm">
-            © 2025 CravManage. Part of the{' '}
-            <a href="https://cravproperty.com" className="text-violet-400 hover:text-violet-300">
-              CravProperty Ecosystem
+            © 2025 Javari Manage. Part of the{' '}
+            <a href="https://javariproperty.com" className="text-violet-400 hover:text-violet-300">
+              Javari Property Ecosystem
             </a>
           </p>
           <div className="flex gap-6 text-sm text-slate-500">
