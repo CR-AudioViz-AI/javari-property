@@ -98,7 +98,7 @@ export default function DashboardPage() {
         <div className="p-4 border-t border-slate-700">
           <p className="text-xs text-slate-500 mb-3">Ecosystem Apps</p>
           <div className="space-y-2">
-            <a href="https://cravkey.com" className="flex items-center gap-2 text-sm text-slate-400 hover:text-emerald-400 transition">
+            <a href="https://javarikeys.com" className="flex items-center gap-2 text-sm text-slate-400 hover:text-emerald-400 transition">
               <Key className="w-4 h-4" />
               <span>Javari Keys (Realtor CRM)</span>
             </a>
