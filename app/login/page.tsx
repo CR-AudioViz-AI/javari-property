@@ -178,7 +178,7 @@ export default function LoginPage() {
           <div className="mt-8 text-center">
             <p className="text-slate-500 text-sm mb-4">Part of the Javari Property Ecosystem</p>
             <div className="flex justify-center gap-4 text-sm">
-              <a href="https://cravkey.com" className="text-slate-400 hover:text-emerald-400 transition">Javari Keys</a>
+              <a href="https://javarikeys.com" className="text-slate-400 hover:text-emerald-400 transition">Javari Keys</a>
               <span className="text-slate-700">•</span>
               <a href="https://zoyzy.com" className="text-slate-400 hover:text-cyan-400 transition">Zoyzy</a>
               <span className="text-slate-700">•</span>
